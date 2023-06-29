@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("./RCE1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.body h1 {
+    color: red;
+    font-size: 75px;
+}
+.body h2 {
+    color: red;
+    font-size: 50px;
+}
+.body {
+    text-align: center;
+    margin-top: 50vh;
+    margin-bottom: 50vh;
+    background: black;
+    padding: 12px 34px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+  }
+.footer ul li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    margin: 0;
+}
+.footer ul li a {
+    position: relative;
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+}
+.footer ul li a::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    transform: scaleX(0);
+    transition: 1s;
+}
+.footer ul li a:hover::after {
+    transform: scaleX(1);    
+}
+.title h1 {
+    color: red;
+    font-size: 75px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background-color: black;
+
+}
+.car1 img {
+    position: fixed;
+    left: 13vw;
+    width: 400px;
+
+}
+.car1 img:hover {
+    width: 500px;
+    transition: 1s ease-in-out;
+}
+.car2 img {
+    position: fixed;
+    left: 37vw;
+    top: 34vh;
+    width: 400px;
+
+}
+.car2 img:hover {
+    width: 500px;
+    transition: 1s ease-in-out;
+}
+.car3 img {
+    position: fixed;
+    left: 5vw;
+    top: 45vh;
+    width: 400px;
+
+}
+.car3 img:hover {
+    width: 500px;
+    transition: 1s ease-in-out;
+}
+.car4 img {
+    position: fixed;
+    left: 70vw;
+    top: 30vh;
+    width: 400px;
+
+}
+.car4 img:hover {
+    width: 500px;
+    transition: 1s ease-in-out;
+}
+.car5 img {
+    position: fixed;
+    left: 57vw;
+    top: 65vh;
+    width: 400px;
+
+}
+.car5 img:hover {
+    width: 500px;
+    transition: 1s ease-in-out;
+}
+.descriptionleft {
+    text-align: left;
+    margin-top: 50vh;
+    width: 40vw;
+}
+.descriptionright {
+    text-align: right;
+    margin-top: 50vh;
+    margin-left: 110vh;
+    width: 40vw;
+}
